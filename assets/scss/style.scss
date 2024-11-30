@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+@import './variables';
+@import 'vuetify/styles/main.sass';
+@import './override';
+@import './layout/container';
+@import './layout/sidebar';
+@import './layout/topbar';
+@import './components/VButtons';
+@import './components/VCard';
+@import './components/VInput';
+@import './components/VNavigationDrawer';
+@import './components/VShadow';
+@import './components/VTextField';
+@import './pages/dashboards';
+@import './pages/authentication';
+@import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
+
+// ============ mohammaed ali ==========
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+.v-navigation-drawer {
+  right: 0px !important;
+  left: unset !important;
+  direction: rtl;
+}
+
+.v-main {
+  --v-layout-left: 0 !important;
+  --v-layout-right: 270px !important;
+
+  padding-right: calc(var(--v-layout-right) + 20px) !important;
+}
+
+.verticalLayout .v-app-bar.v-toolbar {
+  right: 290px !important;
+  left: 0 !important;
+}
+
+.v-locale--is-ltr {
+  direction: rtl !important;
+}
+
+.scrollnavbar .v-list .v-list-item.v-list-item--active .navbox:before {
+  border-radius: 24px 0 0 24px;
+}
+
+.scrollnavbar .v-list .v-list-item .navbox:before {
+  right: -16px;
+}
+
+@media screen and (max-width: 1280px) {
+  .v-main {
+    --v-layout-left: 0 !important;
+    --v-layout-right: 0 !important;
+
+    padding-right: calc(var(--v-layout-right) + 20px) !important;
+  }
+
+  .verticalLayout .v-app-bar.v-toolbar {
+    right: 0px !important;
+    left: 0 !important;
+  }
+}
+
+// ============ mohammaed ali ==========

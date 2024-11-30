@@ -1,0 +1,34 @@
+{
+  "name": "spikeadmin",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "^1.4.2",
+    "@supa-kit/auth-ui-vue": "^0.3.8",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.46.1",
+    "nuxt": "3.7.4"
+  },
+  "dependencies": {
+    "@mdi/font": "^6.5.95",
+    "@nuxt/vite-builder": "^3.7.4",
+    "@nuxtjs/dotenv": "^1.4.2",
+    "apexcharts": "3.36.3",
+    "nuxt-vue3-google-signin": "^0.0.11",
+    "sass": "^1.49.9",
+    "vue": "3.3.4",
+    "vue-tabler-icons": "2.9.0",
+    "vue3-apexcharts": "1.4.1",
+    "vue3-perfect-scrollbar": "1.6.0",
+    "vuetify": "3.3.19"
+  },
+  "overrides": {
+    "nth-check": "2.1.1"
+  }
+}
