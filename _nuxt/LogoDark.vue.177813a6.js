@@ -1,0 +1,1 @@
+import{d as e,o,c as t,b as s}from"./entry.c1191a23.js";const n={class:"logo text-center"},c=s("h1",null,"Hadher Admin",-1),_=[c],l=e({__name:"LogoDark",setup(a){return(r,d)=>(o(),t("div",n,_))}});export{l as _};
