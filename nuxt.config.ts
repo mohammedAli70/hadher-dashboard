@@ -1,10 +1,12 @@
 export default defineNuxtConfig({
   ssr: false,
+  target: 'static',
 
   typescript: {
     shim: false,
   },
   app: {
+    baseURL: '/hadher-dashboard', // Replace with your GitHub repository name
     head: {
       title: 'Hadher admin',
       link: [
